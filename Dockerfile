@@ -1,4 +1,4 @@
-FROM centos:centos7
+FROM centos:latest
 MAINTAINER Bryce Gibson <bryce.gibson@unico.com.au>
 
 RUN yum install -y wget tar glibc-static && yum groupinstall -y "Development Tools"
